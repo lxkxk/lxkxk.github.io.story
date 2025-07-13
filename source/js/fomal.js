@@ -1151,7 +1151,7 @@ function createtime1() {
   );
 }
 
-createtime1();
+// createtime1();
 
 function createtime2() {
   var ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为「大聪明」`, `Photo captured: `, ` 🤪 `];
@@ -1183,7 +1183,7 @@ function createtime2() {
     console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中", "color:white; background-color:#d9534f", "")
   );
 }
-createtime2();
+// createtime2();
 
 // 重写console方法
 console.log = function () { };
