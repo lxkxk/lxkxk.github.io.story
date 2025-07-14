@@ -156,7 +156,10 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://source.fomal.cc/img/default_cover_14.webp
+    # - https://source.fomal.cc/img/default_cover_14.webp
+    - /img/wzbj.jpg
+    - /img/55.jpg
+    # - /img/ych.jpg
     # ...
 
 # A simple 404 page
@@ -304,7 +307,7 @@ comments:
 # disqus
 # https://disqus.com/
 disqus:
-  # storyAndYou
+  # MyStory
   shortname:
   apikey: # For newest comments widget
 
@@ -672,7 +675,7 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    # - 'Welcome to storyAndYou🥝'
+    # - 'Welcome to MyStory🥝'
     # - 'Hope you have a nice day!'
     - '热爱可抵漫长岁月...'
     - '感受停在我发端的指尖'
@@ -691,8 +694,6 @@ subtitle:
     - '是醒不来的梦'
     - '乱世以外'
     - '相遇乱世以外'
-    - '如果阳光永远都炙热~'
-    - '如果彩虹不会掉颜色~'
 
 # Loading Animation (加載動畫)
 # preloader: false
@@ -725,7 +726,7 @@ aside:
       link: https://github.com/lxkxk/.github.io.bk.git
   card_announcement:
     enable: true
-    content: <center><b>--- 主域名 ---<br><a href="https://www.liuxk.online" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">liuxk.online</font></a>&nbsp;|&nbsp;<a href="https://lxkxk.github.io/" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">lxkxk.github.io</font></a></center>
+    content: <center><b>--- 主域名 ---<br><a href="https://www.liuxk.online" title="此线路部署于github" class="anno_content"><font color="#5ea6e5">liuxk.online</font></a>&nbsp;|&nbsp;<a href="https://lxkxk.github.io/" title="此线路部署于giyhub" class="anno_content"><font color="#5ea6e5">lxkxk.github.io</font></a></center>
   card_recent_post:
     enable: false
     limit: 3 # if set 0 will show all
