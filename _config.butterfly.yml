@@ -51,11 +51,11 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  Github: https://github.com || icon-github || faa-tada
+  # Github: https://github.com || icon-github || faa-tada
   微信: /assets/wx.jpg || icon-weixin || faa-tada
   QQ: https://res.abeim.cn/api/qq/?qq=2337961758 || icon-QQ || faa-tada
   B站: https://space.bilibili.com || icon-bilibili || faa-tada
-  QQ邮箱: mailto:2337961758@qq.com || icon-youxiang || faa-tada
+  # QQ邮箱: mailto:2337961758@qq.com || icon-youxiang || faa-tada
   # 力扣: https://leetcode.cn/ || icon-leetcode || faa-tada
   # 微博: https://weibo.com/u/6473136435 || icon-weibo || faa-tada
   # 知乎: https://www.zhihu.com/people/liang-jia-chao-19 || icon-shejiaotubiao-10 || faa-tada
@@ -158,7 +158,7 @@ cover:
   default_cover:
     # - https://source.fomal.cc/img/default_cover_14.webp
     - /img/wzbj.jpg
-    - /img/55.jpg
+    # - /img/55.jpg
     # - /img/ych.jpg
     # ...
 
@@ -723,7 +723,7 @@ aside:
       enable: true
       icon: # fab fa-github
       text: gogogo~
-      link: https://github.com/lxkxk/.github.io.bk.git
+      link: https://memoty48.github.io/memory48.github.io/
   card_announcement:
     enable: true
     content: <center><b>--- 主域名 ---<br><a href="https://www.liuxk.online" title="此线路部署于github" class="anno_content"><font color="#5ea6e5">liuxk.online</font></a>&nbsp;|&nbsp;<a href="https://lxkxk.github.io/" title="此线路部署于giyhub" class="anno_content"><font color="#5ea6e5">lxkxk.github.io</font></a></center>
