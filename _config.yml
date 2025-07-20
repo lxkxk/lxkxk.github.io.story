@@ -169,6 +169,9 @@ swiper:
   swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
   custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
   custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
+# 文章双侧栏
+# butterfly_article_double_row:
+#   enable: true
 
 # 本地搜索
 search:
