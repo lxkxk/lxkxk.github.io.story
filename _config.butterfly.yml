@@ -54,7 +54,9 @@ social:
   # Github: https://github.com || icon-github || faa-tada
   微信: /img/wx.jpg || icon-weixin || faa-tada
   QQ: https://res.abeim.cn/api/qq/?qq=2337961758 || icon-QQ || faa-tada
-  B站: https://space.bilibili.com || icon-bilibili || faa-tada
+  抖音: /img/dy.jpg || icon-douyin3 || faa-tada
+  酷狗: /img/kugou.jpg || icon-ruanjian- || faa-tada
+  # B站: https://space.bilibili.com || icon-bilibili || faa-tada
   # QQ邮箱: mailto:2337961758@qq.com || icon-youxiang || faa-tada
   # 力扣: https://leetcode.cn/ || icon-leetcode || faa-tada
   # 微博: https://weibo.com/u/6473136435 || icon-weibo || faa-tada
@@ -871,7 +873,7 @@ pjax:
 # Inject the css and script (aplayer/meting)
 aplayerInject:
   enable: true
-  per_page: false
+  per_page: true
 
 # Snackbar (Toast Notification 彈窗)
 # https://github.com/polonel/SnackBar
@@ -933,7 +935,7 @@ inject:
     - <style id="transPercent"></style> # 透明度调节
     - <style id="blurNum"></style> # 模糊半径调节
     - <style id="settingStyle"></style> # 模糊效果开关
-    - <span id="fps"></span> # 帧率检测
+    # - <span id="fps"></span> # 帧率检测
     - <style id="defineBg"></style> # 自定义背景选项
     - <style id="menu_shadow"></style> # 菜单发光样式
 
@@ -952,7 +954,8 @@ inject:
     - <script async src="https://cdn.wpon.cn/2022-sucai/Gold-ingot.js"></script> # 新年元宝
     - <canvas id="universe"></canvas> # 星空画布
     - <canvas id="snow"></canvas> # 雪花画布
-    - <script defer src="/js/fomal.js"></script> # 主模块js
+    - <script defer src="/js/fomal.js"></script> # 主模块js  音乐歌单id743891205 743891205 14044452884
+    - <div class="aplayer no-destroy" data-id="14044452884" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
