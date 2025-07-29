@@ -11,27 +11,46 @@ nav#nav
       a(id="page-name" href="javascript:scrollToTop()") PAGE_NAME
       
     #nav-right
-      if (theme.algolia_search.enable || theme.local_search.enable)
-        #search-button
-          //- a.site-page.social-icon.search
-          //-   i.fas.fa-search.fa-fw
-          a.search.faa-parent.animated-hover(title="搜索站内任何你想要的信息")
-            svg.faa-tada.icon(style="height:24px;width:24px;fill:currentColor;position:relative;top:6px" aria-hidden="true")
-              use(xlink:href='#icon-sousuo1')
-            span=' '+_p('search.title')    
+      .glow-box#glow-navbar
+        svg.glow-border(width="140" height="42" viewBox="0 0 140 42")
+          rect(
+            x="4" y="4" width="132" height="34" rx="6" ry="6"
+            fill="none"
+            stroke="url(#gradient)"
+            stroke-width="2"
+            stroke-dasharray="250"
+            stroke-dashoffset="0"
+          )
+          defs
+            linearGradient#gradient
+              stop(offset="0%" stop-color="red")
+              stop(offset="20%" stop-color="orange")
+              stop(offset="40%" stop-color="yellow")
+              stop(offset="60%" stop-color="green")
+              stop(offset="80%" stop-color="cyan")
+              stop(offset="100%" stop-color="blue")
+        .glow-content
+          if (theme.algolia_search.enable || theme.local_search.enable)
+          #search-button
+            //- a.site-page.social-icon.search
+            //-   i.fas.fa-search.fa-fw
+            a.search.faa-parent.animated-hover(title="搜索站内任何你想要的信息")
+              svg.faa-tada.icon(style="height:24px;width:24px;fill:currentColor;position:relative;top:6px" aria-hidden="true")
+                use(xlink:href='#icon-sousuo1')
+              span=' '+_p('search.title')    
 
-      //- 美化设置
-      a.meihua.faa-parent.animated-hover(onclick="toggleWinbox()" title="美化设置-自定义你的风格" id="meihua-button")
-        svg.faa-tada.icon(style="height:26px;width:26px;fill:currentColor;position:relative;top:8px" aria-hidden="true")
-          use(xlink:href='#icon-shezhi3')
+            //- 美化设置
+            a.meihua.faa-parent.animated-hover(onclick="toggleWinbox()" title="美化设置-自定义你的风格" id="meihua-button")
+              svg.faa-tada.icon(style="height:26px;width:26px;fill:currentColor;position:relative;top:8px" aria-hidden="true")
+                use(xlink:href='#icon-shezhi3')
 
-      //- 暗黑模式按钮
-      a.sun_moon.faa-parent.animated-hover(onclick='switchNightMode()',  title=_p('rightside.night_mode_title') id="nightmode-button")
-        svg.faa-tada(style="height:25px;width:25px;fill:currentColor;position:relative;top:7px", viewBox='0 0 1024 1024')
-          use#modeicon(xlink:href='#icon-yueliang')        
-        
-      #toggle-menu
-        a
-          i.fas.fa-bars.fa-fw
+            //- 暗黑模式按钮
+            a.sun_moon.faa-parent.animated-hover(onclick='switchNightMode()',  title=_p('rightside.night_mode_title') id="nightmode-button")
+              svg.faa-tada(style="height:25px;width:25px;fill:currentColor;position:relative;top:7px", viewBox='0 0 1024 1024')
+                use#modeicon(xlink:href='#icon-yueliang')     
+          #toggle-menu
+            a
+              i.fas.fa-bars.fa-fw
+      
 
 
