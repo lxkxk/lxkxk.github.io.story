@@ -1681,8 +1681,8 @@ a:hover {
 /* 帧率检测 */
 #fps {
   position: fixed;
-  left: 10px;
-  bottom: 10px;
+  left: 0;
+  bottom: 67px;
   z-index: 1919810;
 }
 [data-theme='light'] #fps {
