@@ -1,6 +1,6 @@
 ---
-title: 唠叨
-date: 2022-09-08 23:08:13
+title: 吐槽
+date: 2025-06-01 23:08:13
 comments: false
 ---
 

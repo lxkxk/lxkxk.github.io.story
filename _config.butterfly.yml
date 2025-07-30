@@ -25,7 +25,7 @@ menu:
     文章统计: /site/echarts/ || icon-myicon- || faa-tada
     旧时光: /site/time/ || icon-shijian3 || faa-tada
   个人 || icon-gerenzhongxin || faa-gerenzhongxin || hide:
-    # 唠叨: /personal/bb/ || icon-qunliaotian || faa-tada
+    # 吐槽: /personal/bb/ || icon-qunliaotian || faa-tada
     小屋: /personal/love/ || icon-shouye2 || faa-tada
     关于: /personal/about/ || icon-zhifeiji || faa-tada
 
