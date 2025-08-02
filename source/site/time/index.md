@@ -6,6 +6,14 @@ comments: false
 
 {% timeline 小站建设进程 %}
 
+<!-- timeline 2025-08-02 -->
+
+1. 图片 80%迁移至图床
+2. 加入开源免费字体
+3. 样式优化
+
+<!-- endtimeline  -->
+
 <!-- timeline 2025-07-31 -->
 
 1. 加入第三方音乐

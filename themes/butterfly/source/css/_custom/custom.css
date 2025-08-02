@@ -77,6 +77,14 @@
   border-radius: 2em !important;
 }
 
+/* @import url('https://cdn.staticfile.org/lxgw-wenkai-webfont/1.7.0/style.css'); */
+
+/* 也可用 @font-face 直接声明 */
+/* @font-face {
+  font-family: 'LXGW';
+  font-display: swap;
+  src: url('https://cdn.staticfile.org/lxgw-wenkai-webfont/1.7.0/files/lxgwwenkai-regular-subset-100.woff2');
+} */
 /* 字体引入 */
 /* @font-face {
   font-family: YSHST;
@@ -777,6 +785,7 @@ h6::before {
   padding-bottom: 75%;
   margin: 3% auto;
   text-align: center;
+  text-align: left;
 }
 .aspect-ratio iframe {
   position: absolute;
