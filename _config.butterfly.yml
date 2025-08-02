@@ -115,7 +115,8 @@ favicon:
 # Avatar (頭像)
 avatar:
   # img: https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp
-  img: /img/toux.jpg
+  # img: /img/toux.jpg
+  img: https://i.imgs.ovh/2025/08/02/JVpsr.jpeg
   effect: false
 
 # Disable all banner image
@@ -159,7 +160,7 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     # - https://source.fomal.cc/img/default_cover_14.webp
-    - /img/wzbj.jpg
+    - https://i.imgs.ovh/2025/08/02/JVHO0.jpeg
     # - /img/ych.jpg
     # ...
 
@@ -308,7 +309,7 @@ comments:
 # disqus
 # https://disqus.com/
 disqus:
-  # MyStory
+  # SunFlower
   shortname:
   apikey: # For newest comments widget
 
@@ -644,7 +645,7 @@ font:
   font-family: var(--global-font), -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
   # consolas, ZhuZiAWan_light, "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif
   # Consolas_1, ZhuZiAWan_light, "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif
-  code-font-family: Consolas_1, var(--global-font), "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif
+  code-font-family: var(--global-font), "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif
 
 # Font settings for the site title and site subtitle
 # https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
@@ -676,7 +677,7 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    # - 'Welcome to MyStory🥝'
+    # - 'Welcome to SunFlower🥝'
     # - 'Hope you have a nice day!'
     - '热爱可抵漫长岁月...'
     - '感受停在我发端的指尖'
@@ -1099,7 +1100,7 @@ wowjs:
 envelope_comment:
   enable: true #控制开关
   custom_pic:
-    cover: /img/wen1.jpeg #信笺头部图片
+    cover: https://i.imgs.ovh/2025/08/02/JVJgY.jpeg #信笺头部图片
     line: https://tuchuang.voooe.cn/images/2023/01/02/line.webp #信笺底部图片
     beforeimg: https://tuchuang.voooe.cn/images/2023/01/02/before.webp # 信封前半部分
     afterimg: https://tuchuang.voooe.cn/images/2023/01/02/after.webp # 信封后半部分

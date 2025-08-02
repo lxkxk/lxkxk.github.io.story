@@ -54,7 +54,7 @@ function tonav() {
     position = scroll;
   });
   //修复没有弄右键菜单的童鞋无法回顶部的问题
-  document.getElementById("page-name").innerText = document.title.split(" | MyStory🥝")[0];
+  document.getElementById("page-name").innerText = document.title.split(" | SunFlower🥝")[0];
 }
 
 function scrollToTop() {
@@ -1119,7 +1119,7 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到MyStory🥝小家!`,
+    `欢迎来到SunFlower🥝小家!`,
     `Future is now 🍭🍭🍭`,
     `
         
@@ -1133,7 +1133,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2025 By MyStory",
+    "©2025 By SunFlower",
   ];
 
   setTimeout(
@@ -1172,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by MyStory %c 你正在访问MyStory🥝小家",
+      "%c ⚡ Powered by SunFlower %c 你正在访问SunFlower🥝小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1282,8 +1282,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| MyStory🥝") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('MyStory🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| SunFlower🥝") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('SunFlower🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
@@ -3178,12 +3178,16 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(/img/lll.jpg);
-    --darkmode-bg:url(/img/yw.png);
-    --mobileday-bg: url(/img/sj_bt.jpg);
-    --mobilenight-bg: url(/img/sj_yw.jpg);
+    --default-bg: url(https://i.imgs.ovh/2025/08/02/JVe39.jpeg);
+    --darkmode-bg:url(https://i.imgs.ovh/2025/08/02/JV9Uc.jpeg);
+    --mobileday-bg: url(https://i.imgs.ovh/2025/08/02/JU4GH.jpeg);
+    --mobilenight-bg: url(https://i.imgs.ovh/2025/08/02/JUdcU.jpeg);
   }`;
 }
+// --default-bg: url(/img/lll.jpg);
+//     --darkmode-bg:url(/img/yw.png);
+//     --mobileday-bg: url(/img/sj_bt.jpg);
+//     --mobilenight-bg: url(/img/sj_yw.jpg);
 // 切换背景主函数
 function changeBg(s) {
   // 自定义颜色框
