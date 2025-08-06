@@ -6,6 +6,13 @@ comments: false
 
 {% timeline 小站建设进程 %}
 
+<!-- timeline 2025-08-06 -->
+
+1. 解决 3 号的 bug
+2. 网站图标依赖取消 cdn,采用本地化
+
+<!-- endtimeline  -->
+
 <!-- timeline 2025-08-03 -->
 
 日了狗了,一个样式 bug 调了一下午没调好,血压有点高。

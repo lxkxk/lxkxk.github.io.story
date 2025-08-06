@@ -950,7 +950,7 @@ inject:
     - <script async src="//at.alicdn.com/t/c/font_3586335_hsivh70x0fm.js"></script> # js图标引入1 gogogo 小车跑的依赖
     # - <script async src="//at.alicdn.com/t/c/font_3636804_gr02jmjr3y9.js"></script> # js图标引入2
     # - <script async src="//at.alicdn.com/t/c/font_3612150_kfv55xn3u2g.js"></script> # js图标引入3
-    - <script async src="//at.alicdn.com/t/c/font_4985042_9il6pxwks6.js"></script> # js图标引入4 - 自己的
+    - <script async src="//at.alicdn.com/t/c/font_4985042_f3h9475uiqc.js"></script> # js图标引入4 - 自己的
     - <script async src="https://cdn.wpon.cn/2022-sucai/Gold-ingot.js"></script> # 新年元宝
     - <canvas id="universe"></canvas> # 星空画布
     - <canvas id="snow"></canvas> # 雪花画布
@@ -960,6 +960,7 @@ inject:
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
+#- instantpage.js 是页面用到的图标的依赖 已经写在了layout.pug 文件里了
 CDN:
   # The CDN provider of internal scripts (主題內部 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
@@ -1019,7 +1020,8 @@ CDN:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    fontawesomeV6: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
+    # fontawesomeV6: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
+    # fontawesomeV6: /js/instantpage.js # 网页图标等依赖 在layout.pug文件里引入了
     # flickr_justified_gallery_js: https://cdn.staticfile.org/flickr-justified-gallery/2.1.2/fjGallery.min.js
     # flickr_justified_gallery_css: https://cdn.staticfile.org/flickr-justified-gallery/2.1.2/fjGallery.min.css
     aplayer_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css
@@ -1142,7 +1144,7 @@ tag_plugins:
 
 # 主页卡片样式
 # Docs: https://akilar.top/posts/d6b69c49/
-index_card_style: multicard # slidecard | multicard
+index_card_style: multicard # multicard # slidecard | multicard
 
 # 灯笼开关 建议只在过年期间开启
 lantern:
