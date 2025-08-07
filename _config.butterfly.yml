@@ -22,11 +22,12 @@ menu:
   #   友人帐: /social/link/ || icon-lianjie || faa-tada
   网站 || icon-wangzhan || faa-tada || hide:
     网站统计: /site/census/ || icon-a-70shujutongji || faa-tada
-    文章统计: /site/echarts/ || icon-myicon- || faa-tada
-    旧时光: /site/time/ || icon-shijian3 || faa-tada
+    # 文章统计: /site/echarts/ || icon-myicon- || faa-tada
+    时间线: /site/time/ || icon-shijian3 || faa-tada
+    吐槽: /personal/bb/ || icon-jindou || faa-tada
   个人 || icon-gerenzhongxin || faa-gerenzhongxin || hide:
     # 吐槽: /personal/bb/ || icon-qunliaotian || faa-tada
-    小屋: /personal/love/ || icon-shouye2 || faa-tada
+    秘密: /personal/love/ || icon-shouye2 || faa-tada
     关于: /personal/about/ || icon-zhifeiji || faa-tada
 
 # Code Blocks (代碼相關)
