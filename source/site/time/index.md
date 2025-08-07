@@ -52,8 +52,16 @@ comments: false
 
 <!-- timeline 2025-07-12 -->
 
+1. 认证域名并 cdn 解析应用到当前网站
+2. 部署网站
+
+<!-- endtimeline  -->
+
+<!-- timeline 2025-07-07 -->
+
 1. 注册并使用和风天气官方 api
 2. 注册并使用腾讯地图官方 api
+3. 购买域名
 
 <!-- endtimeline  -->
 
