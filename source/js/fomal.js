@@ -622,7 +622,7 @@ function owoBig() {
 
 /* 随便逛逛 start */
 // 随便逛逛
-// 发现有时会和当前页面重复，加一个判断
+// 发现有时会和当前页，加一个面重复判断
 function randomPost() {
   fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {
     let ls = data.querySelectorAll('url loc');
@@ -1283,7 +1283,7 @@ function share_() {
     // 截取标题
     var title = document.title;
     var subTitle = title.endsWith("| SunFlower🥝") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('SunFlower🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    navigator.clipboard.writeText('SunFlower🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🥝');
     new Vue({
       data: function () {
         this.$notify({
@@ -1325,7 +1325,7 @@ document.addEventListener('visibilitychange', function () {
     clearTimeout(titleTime);
   } else {
     //返回当前页面时标签显示内容
-    document.title = '就知道你会回来～😁';
+    document.title = '😁就知道你会回来～';
     //两秒后变回正常标题
     titleTime = setTimeout(function () {
       document.title = OriginTitile;
@@ -2476,7 +2476,7 @@ if (m == 3 && dd == 8) {//妇女节
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
-l = ["非常抱歉，因为不可控原因，博客将于明天停止运营！", "好消息，日本没了！", "美国垮了，原因竟然是川普！", "微软垮了！", "你的电脑已经过载，建议立即关机！", "你知道吗？站长很喜欢你哦！", "一分钟有61秒哦", "你喜欢的人跟别人跑了！"]
+l = ["你知道吗？站长很喜欢你哦！", "一分钟有61秒哦"]
 if (m == 4 && dd == 1) {//愚人节，随机谎话
   if (sessionStorage.getItem("isPopupWindow") != "1") {
     Swal.fire(l[Math.floor(Math.random() * l.length)]);
@@ -2521,16 +2521,16 @@ if (m == 12 && dd == 25) {//圣诞节
 }
 if (m == 3 && dd == 24) {//站长生日
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("祝站长" + (y - 1999).toString() + "岁生日快乐！🥝");
+    Swal.fire("祝站长" + (y - 2000).toString() + "岁生日快乐！🥝");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
-// if (m == 6 && dd == 30) {//小猫咪生日
-//   if (sessionStorage.getItem("isPopupWindow") != "1") {
-//     Swal.fire("祝小猫咪" + (y - 1999).toString() + "岁生日快乐！🐱");
-//     sessionStorage.setItem("isPopupWindow", "1");
-//   }
-// }
+if (m == 6 && dd == 6) {//小猫咪生日
+  if (sessionStorage.getItem("isPopupWindow") != "1") {
+    Swal.fire("祝小猫咪" + (y - 2000).toString() + "岁生日快乐！🐱");
+    sessionStorage.setItem("isPopupWindow", "1");
+  }
+}
 
 //传统节日部分
 
