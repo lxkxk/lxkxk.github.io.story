@@ -3179,8 +3179,8 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://i.imgs.ovh/2025/08/02/JVe39.jpeg);
-    --darkmode-bg:url(https://i.imgs.ovh/2025/08/03/JorpM.jpeg);
+    --default-bg: url(https://i.imgs.ovh/2025/08/12/lyPIa.jpeg);
+    --darkmode-bg:url(https://i.imgs.ovh/2025/08/02/JVe39.jpeg);
     --mobileday-bg: url(https://i.imgs.ovh/2025/08/02/JU4GH.jpeg);
     --mobilenight-bg: url(https://i.imgs.ovh/2025/08/02/JUdcU.jpeg);
   }`;
