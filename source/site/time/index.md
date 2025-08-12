@@ -6,6 +6,14 @@ comments: false
 
 {% timeline 小站建设进程 %}
 
+<!-- timeline 2025-08-12 -->
+
+1. 注册认证并使用腾讯官方 api
+2. 获取访问者 ip,并添加位置欢迎信息
+3. 不会泄露个人隐私！
+
+<!-- endtimeline  -->
+
 <!-- timeline 2025-08-06 -->
 
 1. 解决 3 号的 bug
