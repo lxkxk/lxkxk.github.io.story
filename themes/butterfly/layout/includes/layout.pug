@@ -26,9 +26,10 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
       //- #web_bg
       if page.background
         #web_bg(style=`background:`+ page.background + `;background-attachment: local;background-position: center;background-size: cover;background-repeat: no-repeat;`)
+        #an_music_bg
       else
         #web_bg
-
+        #an_music_bg
         if page.defaultbg || page.darkmodebg
           style.
             #web_bg{
@@ -88,7 +89,7 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
 
     include ./rightside.pug
     //- 下边这行是胶囊播放器
-    //- include ./music.pug
+    include ./music.pug
     !=partial('includes/third-party/search/index', {}, {cache: true})
     !=partial('includes/rightmenu',{}, {cache:true})
     include ./additional-js.pug

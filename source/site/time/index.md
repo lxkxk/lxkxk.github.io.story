@@ -6,6 +6,13 @@ comments: false
 
 {% timeline 小站建设进程 %}
 
+<!-- timeline 2025-08-15 -->
+
+1. 升级音乐插件，变为胶囊样式
+2. 完善菜单的音乐页面
+
+<!-- endtimeline  -->
+
 <!-- timeline 2025-08-12 -->
 
 1. 注册认证并使用腾讯官方 api

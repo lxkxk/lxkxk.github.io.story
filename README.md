@@ -19,3 +19,7 @@
    这一行代码放开
 5. hexo clean && hexo g && hexo s
    查看页面就可以了
+6. 现在的胶囊音乐是随机播放用的 meting2.min.js 和菜单里的音乐界面用的同一个依赖，最好不要随便变
+7. meting2.min.js
+   备用地址 1：https://api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r
+   备用地址 2：https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"
