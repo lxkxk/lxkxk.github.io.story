@@ -6,6 +6,12 @@ comments: false
 
 {% timeline 小站建设进程 %}
 
+<!-- timeline 2025-08-16 -->
+
+1. 看到了一篇个人感觉不错的故事加上了
+
+<!-- endtimeline  -->
+
 <!-- timeline 2025-08-15 -->
 
 1. 升级音乐插件，变为胶囊样式
