@@ -8,6 +8,12 @@ comments: false
 
 <!-- timeline 2025-08-16 -->
 
+1. 好好的做个自我介绍，完善关于页！
+
+<!-- endtimeline  -->
+
+<!-- timeline 2025-08-16 -->
+
 1. 看到了一篇个人感觉不错的故事加上了
 
 <!-- endtimeline  -->

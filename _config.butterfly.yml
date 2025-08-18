@@ -963,6 +963,11 @@ inject:
     - <script async data-pjax src="/js/anzhiyu.js"></script>
     - <script async data-pjax src="/js/anzhiyufunction.js"></script>
     - <script async src="/js/anzhiyuOnlyOne.js"></script>
+    # 51la统计&灵雀统计
+    - <script charset="UTF-8" id="LA_COLLECT" src="https://sdk.51.la/js-sdk-pro.min.js"></script>
+    - <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
+    - <script> LA.init({id:"3N9wsfmt4zDstbzh",ck:"3N9wsfmt4zDstbzh"})</script>
+    - <script>new LingQue.Monitor().init({id:"3N9wsfmt4zDstbzh",sendSuspicious:true});</script>
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
@@ -1042,6 +1047,8 @@ CDN:
     # prismjs_autoloader: https://cdn1.tianli0.top/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
     coin_js: /js/coin.js
     coin_css: /css/coin.css
+    # countupJS
+    countup_js: /js/countup.js
 
 # wowjs动画特效
 # see https://www.npmjs.com/package/hexo-butterfly-wowjs
