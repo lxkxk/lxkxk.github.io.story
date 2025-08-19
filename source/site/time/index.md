@@ -66,7 +66,7 @@ comments: false
 1. 导航栏修改渐变
 2. 完成网站字数统计
 3. 底部 github 徽标
-4. 糖果屋 9-18 点营业,否则打烊
+4. sunFlower 9-18 点营业,否则打烊
 
 <!-- endtimeline  -->
 
