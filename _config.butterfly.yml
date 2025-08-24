@@ -21,7 +21,7 @@ menu:
   #   留言板: /comments/ || icon-liuyan || faa-tada
   #   友人帐: /social/link/ || icon-lianjie || faa-tada
   网站 || icon-wangzhan || faa-tada || hide:
-    网站统计: /site/census/ || icon-a-70shujutongji || faa-tada
+    即刻短文: /site/census/ || icon-a-70shujutongji || faa-tada
     # 文章统计: /site/echarts/ || icon-myicon- || faa-tada
     时间线: /site/time/ || icon-shijian3 || faa-tada
     吐槽: /personal/bb/ || icon-jindou || faa-tada
@@ -939,6 +939,7 @@ inject:
     - <span id="fps"></span> # 帧率检测
     - <style id="defineBg"></style> # 自定义背景选项
     - <style id="menu_shadow"></style> # 菜单发光样式
+    - <link rel="stylesheet" href="/css/essay_page/essay_page.css">
 
   bottom:
     # - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script> # jQuery
@@ -968,6 +969,9 @@ inject:
     - <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
     - <script> LA.init({id:"3N9wsfmt4zDstbzh",ck:"3N9wsfmt4zDstbzh"})</script>
     - <script>new LingQue.Monitor().init({id:"3N9wsfmt4zDstbzh",sendSuspicious:true});</script>
+    # 即刻短文依赖waterfall
+    # - <script async data-pjax src="/js/waterfall/essay.js"></script>
+    - <script async data-pjax src="/js/waterfall/waterfall.js"></script>
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改

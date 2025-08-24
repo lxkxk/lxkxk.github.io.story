@@ -24,7 +24,9 @@
    备用地址 1：https://api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r
    备用地址 2：https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"
 
-8. 自我介绍备份之前的
+8. 即可短文参考： https://blog.anheyu.com/posts/c248.html
+
+9. 自我介绍备份之前的
 <!-- ---
 title: 关于
 date: 2025-07-01 03:05:11

@@ -1,0 +1,22 @@
+- class_name: 即刻短文
+  essay_list:
+    - content: 相册集搞定, 瀑布流在滑动滚动条一个视口范围上下100的情况执行一次, 到底部停止监听让性能高了好多，再也不会布局混乱🤪了
+      date: 2025/08/24
+      # link: https://blog.anheyu.com/album/
+    - content: 支持缩略图显示（默认获取文章内容的第一张图片）
+      date: 2025/08/24 08:00:00
+      from: SunFlower🥝
+    - content: 遇见彩虹🌈吃定彩虹
+      date: 2025/08/24 10:00:00
+      image:
+        - https://i.imgs.ovh/2025/08/02/JVMu6.jpeg
+        - https://i.imgs.ovh/2025/08/02/JVHO0.jpeg
+        - https://i.imgs.ovh/2025/08/02/JVnKg.jpeg
+        - https://i.imgs.ovh/2025/08/02/JVJgY.jpeg
+    - content: 想换电脑了，太卡了
+      date: 2025/08/24
+    - content: 歌曲推荐
+      date: 2025/08/24
+      # aplayer:
+      #   server: netease
+      #   id: 14044452884

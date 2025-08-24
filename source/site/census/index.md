@@ -1,5 +1,8 @@
 ---
-title: 网站统计
-date: 2022-09-15 21:30:00
-comments: false
+title: 即刻短文
+date: 2025-08-19 10:06:17
+comments: true
+aside: false
+top_img: false
+type: essay
 ---
